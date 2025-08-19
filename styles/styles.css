@@ -82,11 +82,7 @@ body{
   display: grid; grid-template-columns: auto auto; grid-template-rows: auto auto; gap: 0 10px; align-items: center; color: inherit; text-decoration: none;
 }
 .logo-mark{
-<<<<<<< HEAD
   width: 45px; height: 45px; fill: var(--accent); opacity: .9; filter: drop-shadow(0 4px 10px rgba(208,160,96,.3));
-=======
-  width: 40px; height: 40px; fill: var(--accent); opacity: .9; filter: drop-shadow(0 4px 10px rgba(208,160,96,.3));
->>>>>>> ee1a531f47bd2c8111dd855e1c953d019fa1ad2e
   grid-row: span 2;
 }
 .logo-text{
@@ -165,10 +161,6 @@ body{
   padding: 20px; border-radius: var(--radius-xl);
   display: grid; gap: 6px;
 }
-<<<<<<< HEAD
-=======
-.card-icon{ font-size: 28px; opacity: .9; }
->>>>>>> ee1a531f47bd2c8111dd855e1c953d019fa1ad2e
 .card h3{ margin: 8px 0 4px; font-size: 20px; }
 .card p{ color: var(--muted); margin: 0 0 12px; }
 .card.highlight{
@@ -176,17 +168,12 @@ body{
   box-shadow: 0 10px 40px rgba(208,160,96,.12);
 }
 
-<<<<<<< HEAD
 .img-card{
   width: 15%;
   object-fit: cover; object-position: center;
   filter: drop-shadow(0 4px 10px rgba(208,160,96,.3));
   filter: invert() saturate(100%) contrast(100%) brightness(100%);
 }
-
-
-=======
->>>>>>> ee1a531f47bd2c8111dd855e1c953d019fa1ad2e
 /* Gallery */
 .gallery{
   grid-template-columns: repeat(6, 1fr);
@@ -268,4 +255,5 @@ a, button{ outline: none; }
 a:focus-visible, button:focus-visible{
   box-shadow: 0 0 0 3px rgba(208,160,96,.45);
   border-radius: 10px;
+
 }
