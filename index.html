@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Barbearia Terral | Corte & Próteses Capilares</title>
+    <meta name="description"
+        content="Barbearia moderna com cortes masculinos, barba e próteses capilares. Agende seu horário pelo WhatsApp.">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Cinzel:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="icon" href="assets/favicon.png">
+</head>
+
+<body>
+    <!-- Background texture overlay -->
+    <div class="bg-wood"></div>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#" class="logo" aria-label="Página inicial">
+                <!-- Minimal logomark -->
+                <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true">
+                    <path d="M10 44c8-8 20-8 28 0 4 4 8 4 12 0-4 4-8 8-12 8-8 0-20-8-28-8Z" />
+                    <path d="M18 22c0-6 4-10 10-10s10 4 10 10v6H18v-6Z" />
+                </svg>
+                <span class="logo-text">Barbearia</span>
+                <span class="logo-sub">du Miranda</span>
+            </a>
+
+            <nav class="nav" aria-label="Primária">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="nav-line"></span><span class="nav-line"></span><span class="nav-line"></span>
+                    <span class="sr-only">Abrir menu</span>
+                </button>
+                <ul id="nav-menu" class="nav-menu">
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li>
+                        <a class="btn btn-primary" id="cta-nav" href="#" target="_blank" rel="noopener">
+                            Agendar no WhatsApp
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container">
+                <div class="glass card-hero">
+                    <h1><span class="accent">Corte</span>, Barba & Próteses Capilares</h1>
+                    <p class="hero-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non lorem ac
+                        velit dignissim accumsan. Atmosfera sofisticada com toque rústico.</p>
+
+                    <div class="cta-row">
+                        <a class="btn btn-primary" id="cta-corte" href="#" target="_blank" rel="noopener"
+                            data-service="Corte masculino">
+                            Agendar Corte
+                        </a>
+                        <a class="btn btn-ghost" id="cta-protese" href="#" target="_blank" rel="noopener"
+                            data-service="Prótese capilar">
+                            Agendar Prótese
+                        </a>
+                    </div>
+
+                    <ul class="tags">
+                        <li>Atendimento com hora marcada</li>
+                        <li>Produtos premium</li>
+                        <li>Ambiente climatizado</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVIÇOS -->
+        <section id="servicos" class="section">
+            <div class="container">
+                <h2>Serviços</h2>
+                <p class="section-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod, urna
+                    at cursus congue.</p>
+
+                <div class="grid cards">
+                    <article class="glass card">
+                        <div class="card-icon" aria-hidden="true">✂️</div>
+                        <h3>Corte Masculino</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate arcu vitae sapien.
+                        </p>
+                        <a class="btn btn-small" data-service="Corte masculino" href="#" target="_blank"
+                            rel="noopener">Agendar</a>
+                    </article>
+
+                    <article class="glass card">
+                        <div class="card-icon" aria-hidden="true">🪒</div>
+                        <h3>Barba & Acabamento</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris efficitur mi sed posuere.</p>
+                        <a class="btn btn-small" data-service="Barba" href="#" target="_blank"
+                            rel="noopener">Agendar</a>
+                    </article>
+
+                    <article class="glass card highlight">
+                        <div class="card-icon" aria-hidden="true">🧑‍🦲</div>
+                        <h3>Prótese Capilar</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat magna eu lorem.</p>
+                        <a class="btn btn-small btn-primary" data-service="Prótese capilar" href="#" target="_blank"
+                            rel="noopener">Agendar</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERIA -->
+        <section id="galeria" class="section alt">
+            <div class="container">
+                <h2>Galeria</h2>
+                <p class="section-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae purus.
+                </p>
+
+                <div class="grid gallery">
+                    <!-- Substitua pelos seus arquivos -->
+                    <div class="glass ph" style="background-image:url('assets/galeria-1.jpg')"></div>
+                    <div class="glass ph" style="background-image:url('assets/galeria-2.jpg')"></div>
+                    <div class="glass ph" style="background-image:url('assets/galeria-3.jpg')"></div>
+                    <div class="glass ph" style="background-image:url('assets/galeria-4.jpg')"></div>
+                    <div class="glass ph" style="background-image:url('assets/galeria-5.jpg')"></div>
+                    <div class="glass ph" style="background-image:url('assets/galeria-6.jpg')"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="section">
+            <div class="container">
+                <div class="glass about">
+                    <div class="about-media" style="background-image:url('assets/sobre.jpg')"></div>
+                    <div class="about-content">
+                        <h2>Sobre a Barbearia</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Sed tempus,
+                            lorem a ultrices suscipit, sem odio fermentum eros, eu volutpat lacus massa vitae purus.</p>
+                        <p>Integer venenatis sapien lorem, vitae posuere nibh hendrerit ut. Integer posuere, lorem non
+                            bibendum consectetur, nisl dui porttitor nisl, quis aliquet quam massa non nibh.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section alt">
+            <div class="container">
+                <h2>Contato</h2>
+                <p class="section-lead">Agende agora mesmo pelo WhatsApp. Lorem ipsum dolor sit amet.</p>
+
+                <div class="contact glass">
+                    <div class="contact-col">
+                        <h3>Horários</h3>
+                        <ul class="list">
+                            <li>Seg — Sex: 09:00 — 19:00</li>
+                            <li>Sábado: 09:00 — 16:00</li>
+                            <li>Domingo: fechado</li>
+                        </ul>
+
+                        <h3>Endereço</h3>
+                        <p>Rua Exemplo, 123 — Centro<br> Sua Cidade — UF</p>
+
+                        <a class="btn btn-primary btn-wide" id="cta-contato" href="#" target="_blank" rel="noopener">
+                            Falar no WhatsApp
+                        </a>
+                    </div>
+
+                    <div class="contact-col">
+                        <div class="map ph" aria-hidden="true">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d390.9643462482367!2d-43.777409617829555!3d-21.21198650895472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa221d8b6abd697%3A0x1df5cfc834babb69!2sBarbearia%20Du%20Miranda%20ESPECIALISTA%20EM%20PROTESE%20CAPILAR!5e0!3m2!1spt-BR!2sbr!4v1755569512738!5m2!1spt-BR!2sbr"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Barbearia Terral — Todos os direitos reservados.</p>
+            <p class="small">Design base em glassmorphism com textura amadeirada. Lorem ipsum dolor sit.</p>
+        </div>
+    </footer>
+
+    <script>
+        window.WHATSAPP_PHONE = "55XXXXXXXXXXX"; // Substitua pelo seu DDI+DDD+número (apenas dígitos)
+        window.WHATSAPP_BASE = "https://wa.me/";
+        window.WHATSAPP_PREFIX = "Olá! Vim pelo site e gostaria de agendar: ";
+    </script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
